@@ -1,0 +1,97 @@
+a.myLink:link {
+  color: black
+}
+
+a.myLink:visited {
+  color: black;
+}
+
+a.myLink:hover {
+  font-style: italic;
+}
+
+a.dummyLink:hover {
+  font-style: italic;
+}
+
+a.myLink:active {
+  color: black;
+}
+
+em{
+  font-style: normal;
+}
+
+.textBox {
+  width: 450px;
+  border: 10px solid #4D9158;
+  padding: 50px;
+  margin: 30px;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 30px;
+}
+
+.bottomsticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  bottom: : 0;
+  padding: 30px;
+}
+
+.customText
+{
+  color: #32542D;
+}
+.customText1
+{
+  color: #32402D;
+}
+
+.myNav
+{
+  margin-top: 70px;
+}
+
+.customFont
+{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navBox
+{
+  border: 2px solid #4D9158;
+  padding: 5px;
+}
+
+.tooltip {
+  position: relative;
+  color: black;
+  display: inline-block;
+  border-bottom: 1px dotted grey;
+}
+
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 120px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.navBoxMe
+{
+	border-right: 2px solid #32542D;
+	padding: 17px;
+}
